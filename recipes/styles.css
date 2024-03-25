@@ -1,0 +1,62 @@
+body {
+    font-family: 'Times New Roman', serif; /* Medieval-inspired font */
+    background-color: #b5651d; /* Brown background color */
+    color: #800020; /* Burgundy text color */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #efe3e3; /* White background for content area */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+.header img {
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+    width: 250px; /* Set the width to your desired size */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px;
+}
+
+.description,
+.ingredients,
+.directions {
+    margin-bottom: 20px;
+}
+
+.description h2,
+.ingredients h2,
+.directions h2 {
+    color: #ffd700; /* Gold color for section headings */
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.description p {
+    text-align: center;
+}
+
+.ingredients ul,
+.directions ol {
+    list-style: none;
+    padding-left: 0;
+}
+
+.ingredients li,
+.directions li {
+    margin-bottom: 10px;
+}
+
+/* Add medieval-inspired borders */
+.ingredients,
+.directions {
+    border: 2px solid #ffd700; /* Gold border */
+    padding: 10px;
+    border-radius: 10px;
+}

@@ -1,0 +1,76 @@
+/* Style for page body */
+body {
+    background-color: #9b8a50; /* Golden mustard yellow */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+    font-family: 'Times New Roman', serif; /* Medieval-inspired font */
+
+}
+
+h1, h2 {
+    font-family: 'Blackletter', serif;
+    color: #800020; /* Burgundy */
+}
+
+/* Style for surrounding div */
+.recipe-container {
+    background-color: #232020; /* White background color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+    transition: color 0.3s ease; /* Smooth color transition */
+
+}
+
+/* Style for headings */
+h1 {
+    
+    text-align: center;
+}
+
+/* Style for list items */
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center; /* Center list items */
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Add decorative borders to headings */
+h1, h2 {
+    border-bottom: 2px solid #ffd700; /* Gold border */
+    padding-bottom: 5px;
+}
+
+/* Style links with a medieval font and color */
+a {
+    font-family: 'Gothic', serif;
+    color: #800020; /* Burgundy */
+    text-decoration: none;
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+a:hover {
+    color: #ffd700; /* Gold on hover */
+}
+
+.recipe-container {
+    text-align: center;
+    margin-bottom: 20px; /* Add some space between the title/links and the slideshow */
+}
+
+.slideshow-container {
+    text-align: center; /* Center the slideshow */
+}
+
+.mySlides {
+    display: none;
+    margin: 0 auto; /* Center the images */
+}
