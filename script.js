@@ -1,4 +1,4 @@
-let slideIndex = 0; // Use let instead of const
+/*let slideIndex = 0; // Use let instead of const
 showSlides();
 
 function showSlides() {
@@ -12,3 +12,4 @@ function showSlides() {
     slides[slideIndex-1].style.display = "block";  
     setTimeout(showSlides, 5000); // Change image every 2 seconds
 }
+*/
